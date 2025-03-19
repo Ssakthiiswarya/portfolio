@@ -1,10 +1,9 @@
-import React from "react";
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
-import { FaHome, FaUser, FaProjectDiagram, FaCode, FaEnvelope, FaBriefcase } from "react-icons/fa"; 
-import "./app.css";
-import Portfoliopage from "./Portfoliopage"; 
 import { motion } from "framer-motion";
-import profilePic from "./images/profile.jpg";
+import React from "react";
+import { FaBriefcase, FaCode, FaEnvelope, FaHome, FaProjectDiagram, FaUser } from "react-icons/fa";
+import { Link, Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import './App.css'
+import Portfoliopage from "./Portfoliopage";
 
 
 const Navbar = () => (
